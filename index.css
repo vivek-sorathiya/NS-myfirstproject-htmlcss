@@ -104,6 +104,12 @@ body{
     .bottom-section{
         gap: 0;
     } 
+    .hero-section{
+        height: 50vh;
+    }
+    .portfolio-back-image{
+        height: 50vh;
+    }
 }
 @media screen and (max-width:550px) {
     .black-box h3{
