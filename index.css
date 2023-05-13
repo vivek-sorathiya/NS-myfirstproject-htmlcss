@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.hero-section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.portfolio-back-image{
+    height: 100vh;
+    width: 100vw;
+}
+.portfolio-heading{
+    position: absolute;
+    top: 5%;
+    color: white;
+}
+.portfolio-heading h2{
+    display: inline;
+    font-weight: 400 ;
+}
+.portfolio-heading h4{
+    display: inline;
+    font-weight: 400 ;
+}
+.portfolio-heading h1{
+    margin-top: 1%;
+    font-weight: 400 ;
+}
+
+.black-box{
+    background-color: #000;
+    color: white;
+}
+.black-box h3{
+    font-size: 80px;
+    font-weight: 400;
+    text-align: center;
+    margin:0;
+    padding: 1rem;
+}
+.black-box span{
+    font-size: 96px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem;  
+}
+.card{
+    height: 400px;
+    max-width: 340px;
+    border: 1px solid rgb(196, 187, 187);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 2px rgb(196, 187, 187);
+}
+.card-image{
+    height: 50%;
+}
+.card-content{
+    height: 50%;
+    padding : 1rem;
+    overflow: hidden;
+    text-overflow: clip;
+    /* display: grid; */
+}
+.card-image img{
+    height:100%;
+    width: 100%;
+    border-radius:10px 10px 0px 0px;  
+}
+
+.bottom-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+.contact{
+    background-color: rgb(43, 94, 43);
+}
+.about{
+    background-color: rgb(105, 50, 50);
+}
+.bottom-item{
+    /* height: 250px; */
+    width: 25rem;
+    padding: 1rem;
+    color: white;
+}
+
+@media screen and (max-width:425px) {
+    .bottom-section{
+        gap: 0;
+    } 
+}
+@media screen and (max-width:550px) {
+    .black-box h3{
+        font-size: 25px;
+    }
+    .black-box span{
+        font-size: 30px;
+    }  
+}
+
+
